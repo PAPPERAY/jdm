@@ -102,23 +102,58 @@
     </p>
 </section>
 
-<section id="autok">
-    <h2>Legendás modellek</h2>
+<div class="container" id="cars">
 
     <div class="card">
-        <h3>Nissan Skyline GT-R R34</h3>
-        <p>Ikonikus sportautó, ami a tuning világ királya.</p>
+        <h2>Toyota Supra MK4</h2>
+        <p>2JZ motor – legendás tuning alap.</p>
+        <button onclick="showInfo('supra')">Több info</button>
     </div>
 
     <div class="card">
-        <h3>Toyota Supra MK4</h3>
-        <p>2JZ motor = brutális erő és megbízhatóság.</p>
+        <h2>Nissan Skyline R34</h2>
+        <p>RB26 motor, AWD rendszer.</p>
+        <button onclick="showInfo('skyline')">Több info</button>
     </div>
 
     <div class="card">
-        <h3>Mazda RX-7</h3>
-        <p>Rotary motor, könnyű kasztni, drift legenda.</p>
+        <h2>Honda NSX</h2>
+        <p>Precíz vezethetőség, VTEC erő.</p>
+        <button onclick="showInfo('nsx')">Több info</button>
     </div>
+
+    <div class="card">
+        <h2>Mazda RX-7</h2>
+        <p>Rotary motor, drift legenda.</p>
+        <button onclick="showInfo('rx7')">Több info</button>
+    </div>
+
+    <div class="card">
+        <h2>Subaru Impreza WRX STI</h2>
+        <p>AWD, rally király.</p>
+        <button onclick="showInfo('sti')">Több info</button>
+    </div>
+
+    <div class="card">
+        <h2>Mitsubishi Lancer Evolution</h2>
+        <p>Az STI örök riválisa.</p>
+        <button onclick="showInfo('evo')">Több info</button>
+    </div>
+
+    <div class="card">
+        <h2>Suzuki Swift Sport</h2>
+        <p>Könnyű és élvezetes.</p>
+        <button onclick="showInfo('swift')">Több info</button>
+    </div>
+
+</div>
+
+<div id="popup">
+    <p id="popupText"></p>
+    <button onclick="closePopup()">Bezár</button>
+</div>
+
+<script src="script.js"></script>
 
 </section>
 

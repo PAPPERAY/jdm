@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #050505;
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(90deg, red, purple);
+    box-shadow: 0 0 20px red;
+}
+
+/* NAV */
+nav {
+    background: #111;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: cyan;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* CONTENT */
+.container {
+    padding: 30px;
+}
+
+/* CARDS */
+.card {
+    background: #111;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px cyan;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px red;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: cyan;
+}
+
+/* POPUP */
+#popup {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    background: black;
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 20px red;
+}
